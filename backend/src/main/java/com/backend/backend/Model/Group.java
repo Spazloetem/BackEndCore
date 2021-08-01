@@ -5,7 +5,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 
 @Entity
-@Table(name="group")
+@Table(name="group_t")
 @EntityListeners(AuditingEntityListener.class)
 public class Group {
 
